@@ -24,3 +24,6 @@ Content-type: Application/json
   "location": "Golden, CO",
   "date": "2022-06-21"
 }
+
+###
+DELETE http://localhost:3000/tournaments/6
