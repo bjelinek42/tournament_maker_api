@@ -19,4 +19,14 @@ class TournamentsController < ApplicationController
     tournament.save
     render json: tournament
   end
+
+  def update
+    tournament = Tournament.find_by(id: params[:id])
+    tournament.name = params[:name] || tournament.name
+    tournament.location = params[:location] || tournament.location
+    tournament.team_count = params[:team_count] || tournament.team_count
+    tournament.date = params[:date] || tournament.date
+    tournament.save
+    render json: tournament
+  end
 end
