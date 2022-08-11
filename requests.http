@@ -40,3 +40,13 @@ Content-type: Application/json
   "location": "Raleigh, NC",
   "logo": "https://ringultimate.files.wordpress.com/2017/10/2011clublogo_ringoffire.png"
 }
+
+###
+PATCH http://localhost:3000/teams/12.json
+Content-type: Application/json
+
+{
+  "name": "Ring of Fire",
+  "location": "Raleigh, NC",
+  "logo": "https://ringultimate.files.wordpress.com/2017/10/2011clublogo_ringoffire.png"
+}

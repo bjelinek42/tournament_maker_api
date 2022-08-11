@@ -21,5 +21,16 @@ class TeamsController < ApplicationController
       render json: "Error, team not saved."
     end
   end
-  
+
+  def update
+    team = Team.find_by(id: params[:id])
+    team.name = params[:name]
+    team.location = params[:location]
+    team.logo = params[:logo]
+    if team.save
+      render json: team
+    else
+      render json: "Error, changes not saved."
+    end
+  end
 end
