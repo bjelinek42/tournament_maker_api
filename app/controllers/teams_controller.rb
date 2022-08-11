@@ -33,4 +33,14 @@ class TeamsController < ApplicationController
       render json: "Error, changes not saved."
     end
   end
+
+  def destroy
+    team = Team.find_by(id: params[:id])
+    team.delete
+    if team.delete
+      render json: "Team deleted successfully."
+    else
+      render json: "Error, team not deleted."
+    end
+  end
 end
