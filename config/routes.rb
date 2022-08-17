@@ -4,6 +4,10 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
-  resources :tournaments, :teams
+  resources :tournaments do
+    resources :tournament_teams
+  end
+
+  resources :teams
 end
 

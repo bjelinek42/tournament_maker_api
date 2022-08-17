@@ -50,3 +50,27 @@
 
 # team = Team.new(name: "Mamabird", location: "Boulder, CO", logo: "https://www.mamabird.com/img/Patch.png")
 # team.save
+
+# tt = TournamentTeam.new(team_id: 1, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 2, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 3, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 4, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 5, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 6, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 7, tournament_id: 1)
+# tt.save
+
+# tt = TournamentTeam.new(team_id: 8, tournament_id: 1)
+# tt.save

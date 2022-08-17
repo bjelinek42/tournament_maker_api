@@ -53,3 +53,9 @@ Content-type: Application/json
 
 ###
 DELETE http://localhost:3000/teams/13
+
+###
+GET http://localhost:3000/tournaments/1/tournament_teams
+
+###
+GET http://localhost:3000/tournaments/1/tournament_teams/3
