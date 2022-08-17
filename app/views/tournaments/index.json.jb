@@ -1,0 +1,9 @@
+@tournaments.map do |tournament|
+  {
+    id: tournament.id,
+    name: tournament.name,
+    url: tournament_url(tournament, format: :json),
+    teams: tournament.teams
+    
+  }
+end

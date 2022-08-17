@@ -1,12 +1,12 @@
 class TeamsController < ApplicationController
   def index
-    teams = Team.all
-    render json: teams
+    @teams = Team.all
+    render template: "teams/index"
   end
 
   def show
-    team = Team.find_by(id: params[:id])
-    render json: team
+    @team = Team.find_by(id: params[:id])
+    render template: "teams/show"
   end
 
   def create

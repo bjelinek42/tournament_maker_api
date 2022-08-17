@@ -1,12 +1,12 @@
 class TournamentsController < ApplicationController
   def index
-    tournaments = Tournament.all
-    render json: t
+    @tournaments = Tournament.all
+    render template: "tournaments/index"
   end
 
   def show
-    tournament = Tournament.find_by(id: params[:id])
-    render json: tournament
+    @tournament = Tournament.find_by(id: params[:id])
+    render template: "tournaments/show"
   end
 
   def create

@@ -1,0 +1,9 @@
+{
+  id: @team.id,
+  name: @team.name,
+  location: @team.location,
+  logo: @team.logo,
+  tournaments: @team.tournaments,
+  created_at: @team.created_at,
+  updated_at: @team.updated_at
+}
