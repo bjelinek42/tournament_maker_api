@@ -18,6 +18,9 @@
 # t = Tournament.new(name: "Winter Warm-up", location: "Fort Collins, CO", team_count: 24, date: "2022-12-5")
 # t.save
 
+# t = Tournament.new(name: "Summer Solstice", location: "Golden, CO", team_count: 12, date: "2022-06-21")
+# t.save
+
 # team = Team.new(name: "Fungi", location: "Boulder, CO", logo: "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2021/08/golden-fungi-logo.png")
 # team.save
 
@@ -45,10 +48,34 @@
 # team = Team.new(name: "Grey Duck", location: "Minneapolis, MN", logo: "https://pbs.twimg.com/profile_images/1192643866618404865/GGb2H6Uw_400x400.jpg")
 # team.save
 
-# team = Team.new(name: "Hodags", location: "Madison, WI", logo: "https://collegechampionships.usaultimate.org/wp-content/uploads/2019/04/Wisconsin_M_2019.jpg")
+# team = Team.new(name: "Wasabi", location: "Colorado Springs, CO", logo: "https://d36m266ykvepgv.cloudfront.net/uploads/media/zp9EVhcZ2C/c-160-160/600e1800b321461287843352e54d7dcb.jpg")
 # team.save
 
-# team = Team.new(name: "Mamabird", location: "Boulder, CO", logo: "https://www.mamabird.com/img/Patch.png")
+# team = Team.new(name: "Sub-Zero", location: "Minneapolis, MN", logo: "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2014/07/sub-zero-logo.jpg")
+# team.save
+
+# team = Team.new(name: "Truck Stop", location: "Washington, DC", logo: "https://pbs.twimg.com/profile_images/378800000186512820/0f22ae9922b512c0b0a4b9b470ba4cfc_400x400.png")
+# team.save
+
+# team = Team.new(name: "Revolver", location: "San Franciso, CA", logo: "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2019/07/Revolver-logo.jpg")
+# team.save
+
+# team = Team.new(name: "Rino Slam!", location: "Portland, OR", logo: "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2019/07/rhino-slam-logo.jpg")
+# team.save
+
+# team = Team.new(name: "Sockeye", location: "Seattle, WA", logo: "https://cdn.ultiworld.com/wordpress/wp-content/uploads/2014/07/sockeye-logo.jpg")
+# team.save
+
+# team = Team.new(name: "Smokestack", location: "Kansas City, MO", logo: "https://pbs.twimg.com/profile_images/1558187732312231938/ZmeX9hR7_400x400.jpg")
+# team.save
+
+# team = Team.new(name: "Machine", location: "Chicago, IL", logo: "https://pbs.twimg.com/profile_images/1121316323/Machine_Twitter_Logo_400x400.jpg")
+# team.save
+
+# team = Team.new(name: "Doublewide", location: "Austin, TX", logo: "https://pbs.twimg.com/profile_images/482205432937582593/7tbY534R_400x400.png")
+# team.save
+
+# team = Team.new(name: "Lounar", location: "St. Louis, MO", logo: "https://images.squarespace-cdn.com/content/v1/59c2968a8a02c791017d66f8/f7b00559-3ac4-4a47-9f4d-3ad1b6eb5b33/stlLounar.jpg?format=300w")
 # team.save
 
 # tt = TournamentTeam.new(team_id: 1, tournament_id: 1)
@@ -72,5 +99,3 @@
 # tt = TournamentTeam.new(team_id: 7, tournament_id: 1)
 # tt.save
 
-# tt = TournamentTeam.new(team_id: 8, tournament_id: 1)
-# tt.save
