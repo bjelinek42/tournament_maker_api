@@ -40,7 +40,7 @@ class TeamsController < ApplicationController
     if team.delete
       render json: "Team deleted successfully."
     else
-      render json: "Error, team not deleted."
+      render json: "Error, team not deleted"
     end
   end
 end
